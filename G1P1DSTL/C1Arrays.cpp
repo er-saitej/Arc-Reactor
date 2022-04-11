@@ -36,7 +36,7 @@ int solve(int n) {
     cout<<"Size of an array: "<<size<<endl<<endl;
     
     // Arrays are always passed by reference.
-    sizeofArray(arr); // Size of array can be only determined by the function or instance scope where array is created. Thus, sending that array to different function cannot determine actual size of an array.
+    sizeofArray(arr); // Size of array can be only determined by the function or instance scope where array is created. Thus, sending that array to different function cannot determine actual size of an array since in the functions, only address is passed not actual array object.
     displayArray(arr, n);
     updateArray(arr, 1, 10);
     displayArray(arr, n);
