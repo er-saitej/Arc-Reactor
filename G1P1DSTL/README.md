@@ -36,9 +36,9 @@
 # Container Adaptors - Uses different containers to implement certain data structures.
 
 > Stack - First in, Last served.\
-> Methods to access data - Insert at top, view at top, remove from top.\
+> Methods to access data - Insert at top (push), view at top (top), remove from top (pop).\
 > Queue - First in, First served.\
-> Methods to access data - Insert at top, view at bottom, remove from bottom.\
-> Priority Queue - Heap.\
+> Methods to access data - Insert at top (push), view at bottom (front), remove from bottom (pop).\
+> Priority Queue - Heap data structure.\
 > Max Heap - provides data in descending order.\
 > Min Heap - provides data in ascending order.
