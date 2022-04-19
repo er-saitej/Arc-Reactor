@@ -12,10 +12,10 @@ using namespace std;
 
 // Always pass template array by reference. If it is passed by value, actual array in template object is not updated since pass by value takes a copy of an object into it.
 
-void displayArray(const array<int, 6> &arr) {
+void displayArray(array<int, 6> &arr) {
     cout<<"Displaying an array"<<endl;
-    for(auto x: arr) {
-        cout<<x<<" ";
+    for(array<int,6>::iterator itr=arr.begin(); itr!=arr.end(); itr++) {
+        cout<<*itr<<" ";
     }
     cout<<endl;
 }
