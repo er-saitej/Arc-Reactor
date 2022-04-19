@@ -1,9 +1,29 @@
-Size of array is 6
-Displaying an array
-3 2 4 1 5 6 
-Displaying an array
-3 2 4 1 10 6 
-Sorted Array
-Displaying an array
-1 2 3 4 6 10 
+3 is inserted and Size of the vector is 1 and capacity is 1
+2 is inserted and Size of the vector is 2 and capacity is 2
+4 is inserted and Size of the vector is 3 and capacity is 4
+1 is inserted and Size of the vector is 4 and capacity is 4
+5 is inserted and Size of the vector is 5 and capacity is 8
+Displaying vector
+3 2 4 1 5 
+Displaying vector
+3 2 4 1 5 
+Clearing vector
+Displaying vector
+
+6 is inserted and Size of the vector is 1 and capacity is 8
+3 is inserted and Size of the vector is 2 and capacity is 8
+2 is inserted and Size of the vector is 3 and capacity is 8
+4 is inserted and Size of the vector is 4 and capacity is 8
+9 is inserted and Size of the vector is 5 and capacity is 8
+Displaying vector
+6 3 2 4 9 
+9 is last element of vector
+Displaying vector
+6 3 2 4 
+4 is last element of vector
+2 is last element of vector
+3 is last element of vector
+6 is last element of vector
+Displaying vector
+
 2147483647
