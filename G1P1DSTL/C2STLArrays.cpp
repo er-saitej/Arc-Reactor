@@ -20,6 +20,10 @@ void displayArray(array<int, 6> &arr) {
     cout<<endl;
 }
 
+void sizeofArray(array<int, 6> &arr) {
+    cout<<"Size of array is "<<arr.size()<<endl; // Size and capacity of array are same.
+}
+
 void inputArray(array<int, 6> &arr) {
     int n;
     for(int i=0; i<arr.size(); i++) {
@@ -34,6 +38,7 @@ void updateArray(array<int, 6> &arr, int index, int value) {
 
 int solve(int num) {
     array<int, 6> arr;
+    sizeofArray(arr);
     inputArray(arr);
     displayArray(arr);
     updateArray(arr, 4, 10);
