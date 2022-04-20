@@ -15,7 +15,7 @@ void displayQueue(queue<int> que) {
     cout<<"Displaying Queue"<<endl;
     while(!que.empty()) {
         cout<<que.front()<<" ";
-        que.pop();
+        que.pop(); // Pops First come, First out
     }
     cout<<endl;
 }
