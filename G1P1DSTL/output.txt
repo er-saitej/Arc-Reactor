@@ -1,41 +1,9 @@
-3 is inserted from back of deque and size of deque is 1
-Displaying deque
-3 
-2 is inserted from back of deque and size of deque is 2
-Displaying deque
-3 2 
-4 is inserted from back of deque and size of deque is 3
-Displaying deque
-3 2 4 
-1 is inserted from back of deque and size of deque is 4
-Displaying deque
-3 2 4 1 
-5 is inserted from front of deque and size of deque is 5
-Displaying deque
-5 3 2 4 1 
-6 is inserted from front of deque and size of deque is 6
-Displaying deque
-6 5 3 2 4 1 
-3 is inserted from front of deque and size of deque is 7
-Displaying deque
-3 6 5 3 2 4 1 
-2 is inserted from front of deque and size of deque is 8
-Displaying deque
-2 3 6 5 3 2 4 1 
-4 is inserted from front of deque and size of deque is 9
-Displaying deque
-4 2 3 6 5 3 2 4 1 
-9 is inserted from front of deque and size of deque is 10
-Displaying deque
-9 4 2 3 6 5 3 2 4 1 
-Displaying deque
-9 4 2 3 6 5 3 2 4 1 
-Easing element having index 3
-Displaying deque
-9 4 2 6 5 3 2 4 1 
-Front most element in deque 9
-Top most element in deque 1
-Popped front and back elements of deque
-Displaying deque
-4 2 6 5 3 2 4 
-2147483647
+3 is inserted into stack
+2 is inserted into stack
+4 is inserted into stack
+1 is inserted into stack
+5 is inserted into stack
+6 is inserted into stack
+Displaying stack
+6 5 1 4 2 3 
+4343480416
