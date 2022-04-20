@@ -24,13 +24,26 @@ Displaying vector
 6 is last element of vector
 Displaying vector
 
+5 is inserted and Size of the vector is 1 and capacity is 8
+63 is inserted and Size of the vector is 2 and capacity is 8
+2 is inserted and Size of the vector is 3 and capacity is 8
+4 is inserted and Size of the vector is 4 and capacity is 8
+1 is inserted and Size of the vector is 5 and capacity is 8
+Displaying vector
+5 63 2 4 1 
 Displaying vector
 20 20 20 20 
+Size of the vector is 4 and capacity is 4
+Size of the vector is 4 and capacity is 1000
 Displaying vector
 1 2 3 4 5 
 
 Easing a vector
 Displaying vector
 1 2 3 5 
+
+Sorting a vector
+Displaying vector
+1 2 4 5 63 
 
 2147483647

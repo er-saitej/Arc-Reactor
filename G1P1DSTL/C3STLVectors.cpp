@@ -60,6 +60,13 @@ void eraseVectorElements(vector<int> &vec, int elementIndex) {
     cout<<endl;
 }
 
+void sortingVector(vector<int> &vec) {
+    cout<<"Sorting a vector"<<endl;
+    sort(vec.begin(), vec.end());
+    displayVector(vec);
+    cout<<endl;
+}
+
 int solve(int num) {
     vector<int> vec;
     insertElements(vec);
@@ -67,12 +74,17 @@ int solve(int num) {
     insertElements(vec);
     popElement(vec);
     popAllElements(vec);
+    insertElements(vec);
     vector<int> vec1(4, 20); // Fill constructor
     displayVector(vec1);
+    sizeAndCapacity(vec1);
+    vec1.reserve(1000); // Since capacity doubling is an expensive operation which takes O(n) time, we use function named reserve which will store some memory in allocations.
+    sizeAndCapacity(vec1);
     int arr[] = {1, 2, 3, 4, 5};
     vector<int> vec2(arr, arr+5); // Initiating vector through array
     displayVector(vec2);
     eraseVectorElements(vec2, 3);
+    sortingVector(vec);
     return num;
 }
 
