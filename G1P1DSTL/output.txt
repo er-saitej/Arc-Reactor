@@ -5,8 +5,6 @@
 5 is inserted and Size of the vector is 5 and capacity is 8
 Displaying vector
 3 2 4 1 5 
-Displaying vector
-3 2 4 1 5 
 Clearing vector
 Displaying vector
 
@@ -25,5 +23,14 @@ Displaying vector
 3 is last element of vector
 6 is last element of vector
 Displaying vector
+
+Displaying vector
+20 20 20 20 
+Displaying vector
+1 2 3 4 5 
+
+Easing a vector
+Displaying vector
+1 2 3 5 
 
 2147483647

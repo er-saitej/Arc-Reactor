@@ -53,6 +53,13 @@ void popAllElements(vector<int> &vec) {
     displayVector(vec);
 }
 
+void eraseVectorElements(vector<int> &vec, int elementIndex) {
+    cout<<endl<<"Easing a vector"<<endl;
+    vec.erase(vec.begin()+elementIndex);
+    displayVector(vec);
+    cout<<endl;
+}
+
 int solve(int num) {
     vector<int> vec;
     insertElements(vec);
@@ -60,6 +67,12 @@ int solve(int num) {
     insertElements(vec);
     popElement(vec);
     popAllElements(vec);
+    vector<int> vec1(4, 20); // Fill constructor
+    displayVector(vec1);
+    int arr[] = {1, 2, 3, 4, 5};
+    vector<int> vec2(arr, arr+5); // Initiating vector through array
+    displayVector(vec2);
+    eraseVectorElements(vec2, 3);
     return num;
 }
 
