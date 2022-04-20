@@ -1,49 +1,41 @@
-3 is inserted and Size of the vector is 1 and capacity is 1
-2 is inserted and Size of the vector is 2 and capacity is 2
-4 is inserted and Size of the vector is 3 and capacity is 4
-1 is inserted and Size of the vector is 4 and capacity is 4
-5 is inserted and Size of the vector is 5 and capacity is 8
-Displaying vector
-3 2 4 1 5 
-Clearing vector
-Displaying vector
-
-6 is inserted and Size of the vector is 1 and capacity is 8
-3 is inserted and Size of the vector is 2 and capacity is 8
-2 is inserted and Size of the vector is 3 and capacity is 8
-4 is inserted and Size of the vector is 4 and capacity is 8
-9 is inserted and Size of the vector is 5 and capacity is 8
-Displaying vector
-6 3 2 4 9 
-9 is last element of vector
-Displaying vector
-6 3 2 4 
-4 is last element of vector
-2 is last element of vector
-3 is last element of vector
-6 is last element of vector
-Displaying vector
-
-5 is inserted and Size of the vector is 1 and capacity is 8
-63 is inserted and Size of the vector is 2 and capacity is 8
-2 is inserted and Size of the vector is 3 and capacity is 8
-4 is inserted and Size of the vector is 4 and capacity is 8
-1 is inserted and Size of the vector is 5 and capacity is 8
-Displaying vector
-5 63 2 4 1 
-Displaying vector
-20 20 20 20 
-Size of the vector is 4 and capacity is 4
-Size of the vector is 4 and capacity is 1000
-Displaying vector
-1 2 3 4 5 
-
-Easing a vector
-Displaying vector
-1 2 3 5 
-
-Sorting a vector
-Displaying vector
-1 2 4 5 63 
-
+3 is inserted from back of deque and size of deque is 1
+Displaying deque
+3 
+2 is inserted from back of deque and size of deque is 2
+Displaying deque
+3 2 
+4 is inserted from back of deque and size of deque is 3
+Displaying deque
+3 2 4 
+1 is inserted from back of deque and size of deque is 4
+Displaying deque
+3 2 4 1 
+5 is inserted from front of deque and size of deque is 5
+Displaying deque
+5 3 2 4 1 
+6 is inserted from front of deque and size of deque is 6
+Displaying deque
+6 5 3 2 4 1 
+3 is inserted from front of deque and size of deque is 7
+Displaying deque
+3 6 5 3 2 4 1 
+2 is inserted from front of deque and size of deque is 8
+Displaying deque
+2 3 6 5 3 2 4 1 
+4 is inserted from front of deque and size of deque is 9
+Displaying deque
+4 2 3 6 5 3 2 4 1 
+9 is inserted from front of deque and size of deque is 10
+Displaying deque
+9 4 2 3 6 5 3 2 4 1 
+Displaying deque
+9 4 2 3 6 5 3 2 4 1 
+Easing element having index 3
+Displaying deque
+9 4 2 6 5 3 2 4 1 
+Front most element in deque 9
+Top most element in deque 1
+Popped front and back elements of deque
+Displaying deque
+4 2 6 5 3 2 4 
 2147483647
