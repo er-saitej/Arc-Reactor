@@ -1,11 +1,19 @@
-3 is inserted into heap
-2 is inserted into heap
-4 is inserted into heap
-1 is inserted into heap
-5 is inserted into heap
-6 is inserted into heap
-3 is inserted into heap
-
-Displaying heap
-1 2 3 3 4 5 6 
+3 is key and 2 is value in map
+4 is key and 1 is value in map
+5 is key and 6 is value in map
+3 is key and 2 is value in map
+4 is key and 9 is value in map
+5 is key and 63 is value in map
+2 is key and 4 is value in map
+Displaying map
+2 4 
+3 2 2 
+4 1 9 
+5 6 63 
+Displaying map
+2 4 
+4 1 9 
+5 6 63 
+Retrieving data
+No data present
 2147483647
