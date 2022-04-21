@@ -1,7 +1,7 @@
 /*
     Author: Sai Tej Sunkara
     Date: 21 April 2022
-    Topic: Hashing - unordered_maps
+    Topic: Hashing with separate chaining - unordered_maps
 */
 #include<bits/stdc++.h>
 #include<vector>
@@ -33,7 +33,6 @@ void retrieveData(unordered_map<int, vector<int> > mp, int key) {
     else {
         cout<<"No data present"<<endl;
     }
-    
 }
 
 void removeElements(unordered_map<int, vector<int> > &mp , int key) {
