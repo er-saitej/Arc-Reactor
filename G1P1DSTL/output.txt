@@ -1,19 +1,14 @@
-3 is key and 2 is value in unordered_map
-4 is key and 1 is value in unordered_map
-5 is key and 6 is value in unordered_map
-3 is key and 2 is value in unordered_map
-4 is key and 9 is value in unordered_map
-5 is key and 63 is value in unordered_map
-2 is key and 4 is value in unordered_map
-Displaying unordered_map
-3 2 2 
-4 1 9 
-5 6 63 
-2 4 
-Displaying unordered_map
-4 1 9 
-5 6 63 
-2 4 
-Retrieving data
-No data present
+3 is inserted into set
+2 is inserted into set
+4 is inserted into set
+1 is inserted into set
+5 is inserted into set
+6 is inserted into set
+3 is inserted into set
+2 is inserted into set
+4 is inserted into set
+Displaying set
+3 2 4 1 5 6 
+Displaying set
+3 4 1 5 6 
 2147483647
