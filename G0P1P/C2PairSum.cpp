@@ -1,7 +1,7 @@
 /*
     Author: Sai Tej Sunkara
-    Date: 
-    Topic: 
+    Date: 22 April 2022
+    Topic: Practice
 */
 #include<bits/stdc++.h>
 #include<unordered_map>
