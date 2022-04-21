@@ -32,7 +32,7 @@ void insertElementsToSet(unordered_set<int> &set) {
     for(int i=0; i<9; i++) {
         cin>>num;
         cout<<num<<" is inserted into set"<<endl;
-        set.insert(num); // Always insert unique values into it.
+        set.insert(num); // Always inserts unique values into it.
     }
     displaySet(set);
 }
