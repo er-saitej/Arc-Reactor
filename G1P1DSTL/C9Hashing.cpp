@@ -1,19 +1,18 @@
 /*
     Author: Sai Tej Sunkara
     Date: 21 April 2022
-    Topic: Hashing - Maps
-    Functionality: Insertion takes O(log n), deletion takes O(log n), query also takes O(log n)
+    Topic: Hashing - unordered_maps
 */
 #include<bits/stdc++.h>
 #include<vector>
-#include<map>
+#include<unordered_map>
 #include<algorithm>
 #define int long long int
 #define endl "\n"
 using namespace std;
 
-void displayMaps(map<int, vector<int> > mp) {
-    cout<<"Displaying map"<<endl;
+void displayunordered_maps(unordered_map<int, vector<int> > mp) {
+    cout<<"Displaying unordered_map"<<endl;
     for(pair<int, vector<int> > x: mp) {
         cout<<x.first<<" ";
         for(auto y: x.second) {
@@ -23,39 +22,39 @@ void displayMaps(map<int, vector<int> > mp) {
     }
 }
 
-void retrieveData(map<int, vector<int> > mp, int key) {
+void retrieveData(unordered_map<int, vector<int> > mp, int key) {
     cout<<"Retrieving data"<<endl;
-    if(mp[key].empty()) {
-        cout<<"No data present"<<endl;
-    }
-    else {
-        for(auto x: mp[key]) {
+    if(mp.count(key)) {
+        for(auto x: mp[key]) { // To check whether data is available or not
             cout<<x<<" ";
         }
         cout<<endl;
     }
+    else {
+        cout<<"No data present"<<endl;
+    }
     
 }
 
-void removeElements(map<int, vector<int> > &mp , int key) {
+void removeElements(unordered_map<int, vector<int> > &mp , int key) {
     mp.erase(key);
-    displayMaps(mp);
+    displayunordered_maps(mp);
 }
 
-void insertElements(map<int, vector<int> > &mp) {
+void insertElements(unordered_map<int, vector<int> > &mp) {
     int key, value;
     for(int i=0; i<7; i++) {
         cin>>key>>value;
         mp[key].push_back(value);
-        cout<<key<<" is key and "<<value<<" is value in map"<<endl;
+        cout<<key<<" is key and "<<value<<" is value in unordered_map"<<endl;
     }
-    displayMaps(mp);
+    displayunordered_maps(mp);
 }
 
 int solve(int num) {
-    map<int, vector<int> > mp; // Ordered map - uses binary search tree
+    unordered_map<int, vector<int> > mp;
     insertElements(mp);
-    removeElements(mp, 3); // 3 key will be deleted.
+    removeElements(mp, 3);
     retrieveData(mp, 6);
     return num;
 }

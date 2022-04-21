@@ -1,19 +1,19 @@
-3 is key and 2 is value in map
-4 is key and 1 is value in map
-5 is key and 6 is value in map
-3 is key and 2 is value in map
-4 is key and 9 is value in map
-5 is key and 63 is value in map
-2 is key and 4 is value in map
-Displaying map
-2 4 
+3 is key and 2 is value in unordered_map
+4 is key and 1 is value in unordered_map
+5 is key and 6 is value in unordered_map
+3 is key and 2 is value in unordered_map
+4 is key and 9 is value in unordered_map
+5 is key and 63 is value in unordered_map
+2 is key and 4 is value in unordered_map
+Displaying unordered_map
 3 2 2 
 4 1 9 
 5 6 63 
-Displaying map
 2 4 
+Displaying unordered_map
 4 1 9 
 5 6 63 
+2 4 
 Retrieving data
 No data present
 2147483647
