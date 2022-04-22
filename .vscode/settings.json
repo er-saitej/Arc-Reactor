@@ -2,7 +2,9 @@
     "files.associations": {
         "array": "cpp",
         "vector": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "ios": "cpp",
+        "tuple": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
