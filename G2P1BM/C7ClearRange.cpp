@@ -10,11 +10,9 @@
 using namespace std;
 
 int solve(int num, int i, int j) {
-    int mask = ~0<<i;
-    int looper = j-i+1;
-    while(looper--) {
-        mask = (mask<<1)|1;
-    }
+    int mask1 = ((~0)<<(j+1));
+    int mask2 = ~((~0)<<i);
+    int mask = mask1|mask2;
     return num&mask;
 }
 
