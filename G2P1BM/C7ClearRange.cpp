@@ -9,8 +9,12 @@
 #define endl "\n"
 using namespace std;
 
-int solve(int num, int bit) {
-    int mask = ((~0)<<bit);
+int solve(int num, int i, int j) {
+    int mask = ~0<<i;
+    int looper = j-i+1;
+    while(looper--) {
+        mask = (mask<<1)|1;
+    }
     return num&mask;
 }
 
@@ -22,11 +26,11 @@ int32_t main() {
         freopen("output.txt", "w", stdout);
         freopen("error.txt", "w", stderr);
     #endif
-    int test, num, bit;
+    int test, num, i, j;
     cin>>test;
     while(test--) {
-        cin>>num>>bit;
-        cout<<solve(num, bit)<<endl;
+        cin>>num>>i>>j;
+        cout<<solve(num, i, j)<<endl;
     }
     cerr<<((double)clock()-initialTime)/CLOCKS_PER_SEC<<endl;
     return 0;
