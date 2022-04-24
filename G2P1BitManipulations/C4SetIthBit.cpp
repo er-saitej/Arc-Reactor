@@ -10,8 +10,8 @@
 using namespace std;
 
 int solve(int num, int bit) {
-    
-    return num;
+    int mask = 1<<bit;
+    return num|mask;
 }
 
 int32_t main() {
