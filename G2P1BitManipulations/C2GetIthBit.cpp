@@ -10,8 +10,9 @@
 using namespace std;
 
 int solve(int num, int bit) {
-    
-    return num;
+    num = num>>bit;
+    if(num&1) return 1;
+    else return 0;
 }
 
 int32_t main() {
