@@ -10,11 +10,8 @@
 using namespace std;
 
 int solve(int num, int bit) {
-    int mask = 0;
-    while(bit--) {
-        mask = (mask<<1)|1;
-    }
-    return num&(~mask);
+    int mask = ((~0)<<bit);
+    return num&mask;
 }
 
 int32_t main() {
