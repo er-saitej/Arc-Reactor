@@ -11,11 +11,11 @@ using namespace std;
 
 int solve(int num, int bit, int value) {
     int mask = 1<<bit;
-    if(value==0) {
-        return num&(~mask);
+    if(value) {
+        return num|mask;
     }
     else {
-        return num|mask;
+        return num&(~mask);        
     }
 }
 
