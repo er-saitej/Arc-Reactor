@@ -10,16 +10,8 @@
 using namespace std;
 
 bool solve(int num) {
-    int flag = false;
-    while(num) {
-        if(num&1) {
-            flag = true;
-            num = num>>1;
-            break;
-        }
-        num = num>>1;
-    }
-    if(flag && !num) return true;
+    if(num<1) return false;
+    if(!(num&num-1)) return true;
     return false;
 }
 
