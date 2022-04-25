@@ -2,7 +2,7 @@
     Author: Sai Tej Sunkara
     Date: 25 April 2022
     Topic: Bitwise Operators
-    TIme Complexity: Log N (Because a number can have at-most Log N bits in it)
+    TIme Complexity: Log N (Because a number can have at-most Log N bits in it) - if using loop
 */
 #include<bits/stdc++.h>
 #include<algorithm>
@@ -12,9 +12,9 @@ using namespace std;
 
 int solve(int num) {
     int count = 0;
-    while(num>0) {
-        count+=num&1;
-        num = num>>1;
+    while(num) {
+        num = num&(num-1); // num & (num-1) will remove 1 bit from entire bits. So if we do that in loop, it will remove one bit by bit in every iteration and we can count the bits.
+        count++;
     }
     return count;
 }
