@@ -18,8 +18,6 @@ int solve(int num1, int num2, int i, int j) {
     int mask2 = ~mask1;
     num2 = num2&mask2;
 
-    cout<<num2<<endl;
-
     return num1|num2;
 }
 
