@@ -1,2 +1,13 @@
-10
-1 3 5 4 3 1 5 5 3 1
+1
+abc
+
+abc = 111 - pow(2, 3) = 8
+
+Binary representation until 8
+000 = ""
+001 = c
+010 = b
+011 = bc
+100 = a
+101 = ac
+111 = abc
