@@ -15,8 +15,19 @@
 #define endl "\n"
 using namespace std;
 
-int solve(int num) {
-    return num;
+int travellingSalesman(vector<vector<int> > distance, int currentNode, int visited, int nodes) {
+    //base
+    if(visited == ~(~0<<nodes)){
+        return distance[currentNode][0];
+    }
+    int answer = INT_MAX;
+    for(int i=0; i<nodes; i++) {
+        if(!(visited&(1<<i))) {
+            int subProblem = distance[currentNode][i] + travellingSalesman(distance, i, visited|(1<<i), nodes);
+            answer = min(answer, subProblem);
+        }
+    }
+    return answer;
 }
 
 int32_t main() {
@@ -27,10 +38,21 @@ int32_t main() {
         freopen("output.txt", "w", stdout);
         freopen("error.txt", "w", stderr);
     #endif
-    int test;
-    cin>>test;
+    int test, nodes, num, rows, cols;
+    vector<vector<int> > distance;
+    cin>>test>>nodes;
+    rows = cols = nodes;
     while(test--) {
-        cout<<solve(INT_MAX)<<endl;
+        while(rows--) {
+            vector<int> row;
+            while(cols--) {
+                cin>>num;
+                row.push_back(num);
+            }
+            distance.push_back(row);
+            cols = nodes;
+        }
+        cout<<travellingSalesman(distance, 0, 1, nodes)<<endl;
     }
     cerr<<((double)clock()-initialTime)/CLOCKS_PER_SEC<<endl;
     return 0;
